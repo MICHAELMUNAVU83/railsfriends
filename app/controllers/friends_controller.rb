@@ -22,7 +22,6 @@ class FriendsController < ApplicationController
   # POST /friends or /friends.json
   def create
     @friend = Friend.new(friend_params)
-
     respond_to do |format|
       if @friend.save
         format.html { redirect_to friend_url(@friend), notice: "Friend was successfully created." }
