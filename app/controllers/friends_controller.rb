@@ -11,8 +11,6 @@ class FriendsController < ApplicationController
   # GET /friends/1 or /friends/1.json
   def show
   end
-
-  # GET /friends/new
   def new
     @friend = Friend.new
   end
