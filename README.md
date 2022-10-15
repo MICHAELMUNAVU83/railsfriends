@@ -36,7 +36,7 @@ If you don't have yarn installed, you can follow this [tutorial](https://classic
 ## Usage
 In your terminal, navigate to your current directory and run this code
 
-`git clone https://github.com/steveWDamesJr/railsfriends.git`
+`git clone https://github.com/MICHAELMUNAVU83/railsfriends.git`
 
 Then run
 
