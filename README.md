@@ -6,6 +6,8 @@
 This is a ruby on rails app that helps one keep track of friends, users can log in and sign up
 
 Enjoy!
+## Live Link
+[Live Demo Link](https://sleepy-wildwood-67232.herokuapp.com/)
 
 
 ## Built With
