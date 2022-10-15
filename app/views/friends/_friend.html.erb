@@ -7,5 +7,8 @@
   <td><%= friend.phone %></td>
   <td><%= friend.twitter %></td>
   <td><%= link_to "Show", friend_path(friend) %></td>
+  <td><%= link_to "Edit", edit_friend_path(friend) %></td>
+  <td><%= link_to "Destroy",friend, method: :delete, data: { confirm: "Are you sure?" } %></td>
+  <td> <%= friend.user_id %></td>
 </tr>
 </tbody>
